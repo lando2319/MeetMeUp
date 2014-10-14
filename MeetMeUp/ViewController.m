@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DetailsViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -49,6 +50,12 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.groupOfMeetups.count;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(UITableViewCell *)cell {
+    DetailsViewController *detailActual = [segue destinationViewController];
+    NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
+    detailActual = [self.groupOfMeetups objectAtIndex:indexPath.row];
 }
 
 

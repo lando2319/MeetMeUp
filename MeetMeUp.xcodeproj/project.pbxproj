@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0B260A19ECEC86009D3438 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0B260919ECEC86009D3438 /* DetailsViewController.m */; };
 		CCEB1F4A19EC510800908A3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEB1F4919EC510800908A3A /* main.m */; };
 		CCEB1F4D19EC510800908A3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEB1F4C19EC510800908A3A /* AppDelegate.m */; };
 		CCEB1F5019EC510800908A3A /* MeetMeUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCEB1F4E19EC510800908A3A /* MeetMeUp.xcdatamodeld */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC0B260819ECEC86009D3438 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		CC0B260919ECEC86009D3438 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		CCEB1F4419EC510800908A3A /* MeetMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCEB1F4819EC510800908A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCEB1F4919EC510800908A3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 				CCEB1F4C19EC510800908A3A /* AppDelegate.m */,
 				CCEB1F5119EC510800908A3A /* ViewController.h */,
 				CCEB1F5219EC510800908A3A /* ViewController.m */,
+				CC0B260819ECEC86009D3438 /* DetailsViewController.h */,
+				CC0B260919ECEC86009D3438 /* DetailsViewController.m */,
 				CCEB1F5419EC510800908A3A /* Main.storyboard */,
 				CCEB1F5719EC510800908A3A /* Images.xcassets */,
 				CCEB1F5919EC510800908A3A /* LaunchScreen.xib */,
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCEB1F4D19EC510800908A3A /* AppDelegate.m in Sources */,
+				CC0B260A19ECEC86009D3438 /* DetailsViewController.m in Sources */,
 				CCEB1F5019EC510800908A3A /* MeetMeUp.xcdatamodeld in Sources */,
 				CCEB1F5319EC510800908A3A /* ViewController.m in Sources */,
 				CCEB1F4A19EC510800908A3A /* main.m in Sources */,
@@ -416,6 +422,7 @@
 				CCEB1F6C19EC510800908A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCEB1F6D19EC510800908A3A /* Build configuration list for PBXNativeTarget "MeetMeUpTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				CCEB1F6F19EC510800908A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

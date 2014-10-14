@@ -40,6 +40,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="aCC-Pf-ERP" kind="show" id="fEI-Jv-QY9"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -64,6 +67,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="984" y="-395"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="Bu5-Hd-EMp">
+            <objects>
+                <viewController id="aCC-Pf-ERP" customClass="DetailsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MLT-t0-20i"/>
+                        <viewControllerLayoutGuide type="bottom" id="UOx-vI-CG8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="S73-Aw-9py">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yd2-x4-XKD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1755" y="-395"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lMy-04-6iY">
