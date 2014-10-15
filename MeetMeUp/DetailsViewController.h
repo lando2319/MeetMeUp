@@ -10,5 +10,10 @@
 
 @interface DetailsViewController : UIViewController
 @property NSString *detailsActual;
+@property NSString *eventName;
+@property NSString *rsvpCount;
+@property NSString *groupInfo;
+@property NSString *eventDescription;
+
 
 @end

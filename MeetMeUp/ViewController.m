@@ -55,6 +55,16 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(UITableViewCell *)cell {
     DetailsViewController *detailActual = [segue destinationViewController];
     NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
+
+//    DetailsViewController *eventName =
+//    DetailsViewController detailsActual;
+//    DetailsViewController eventName;
+//    DetailsViewController rsvpCount;
+//    DetailsViewController groupInfo;
+//    DetailsViewController eventDescription;
+
+
+
     detailActual = [self.groupOfMeetups objectAtIndex:indexPath.row];
 }
 
